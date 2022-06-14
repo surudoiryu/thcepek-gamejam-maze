@@ -268,5 +268,7 @@ new Model(
   new GLTFShape("teleports/y2a1.glb"),
   new Transform({ position: new Vector3(32, 0, 32) }),
   _scene,
-  new Transform({ position: new Vector3(32, 0, 32) })
+  24.20, 
+  5.10, 
+  25.94
 );

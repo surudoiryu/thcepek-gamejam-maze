@@ -1,40 +1,26 @@
-export class Model extends Entity {
-  teleportLocation = new Transform({ position: new Vector3(0, 0, 0) });
+import { movePlayerTo } from "@decentraland/RestrictedActions";
 
+export class Model extends Entity {
   constructor(
     model: GLTFShape,
     transform: Transform,
     parent: Entity,
-    location: Transform
+    locX: number,
+    locY: number,
+    locZ: number
   ) {
     super();
     engine.addEntity(this);
     this.addComponent(transform);
     this.addComponent(model);
     this.setParent(parent);
-    this.teleportLocation = location;
-  }
-
-  /*playerTeleporte): void {
-    this.position.set(
-      Camera.instance.position.x,
-      Camera.instance.position.y,
-      Camera.instance.position.z
-    );
-  }*/
-
-  toggleOnPointerDown(): void {
-    this.addComponentOrReplace(
+    this.addComponent(
       new OnPointerDown(
         (e) => {
           //this.playerTeleport(e);
-          log("teleport player!");
+          void movePlayerTo({ x: locX, y: locY, z: locZ });
         },
-        {
-          hoverText: "Pick up Bowlingball",
-          distance: 8,
-          button: ActionButton.PRIMARY,
-        }
+        { hoverText: "Go through maze" }
       )
     );
   }
