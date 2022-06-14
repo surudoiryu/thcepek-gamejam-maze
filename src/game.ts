@@ -262,21 +262,6 @@ gltfShape3.visible = true
 maze.addComponentOrReplace(gltfShape3)
 
 
-const floorg4a4 = new Entity('floorg4a4')
-engine.addEntity(floorg4a4)
-floorg4a4.setParent(_scene)
-const floorg4a4transform = new Transform({
-  position: new Vector3(32, 0, 32),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
-})
-maze.addComponentOrReplace(floorg4a4transform)
-const gltffloorg4a4 = new GLTFShape("8dd05b91-a68f-4419-8de7-1a10f23e1633/FLOORG4A4.glb")
-gltffloorg4a4.withCollisions = true
-gltffloorg4a4.isPointerBlocker = true
-gltffloorg4a4.visible = true
-maze.addComponentOrReplace(gltffloorg4a4)
-
 
 const climber = new Entity('climber')
 engine.addEntity(climber)
