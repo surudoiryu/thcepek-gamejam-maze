@@ -519,9 +519,9 @@ new Model(
   new GLTFShape("teleports/r4a1.glb"),
   new Transform({ position: new Vector3(32, 0, 32) }),
   _scene,
-  24.20, 
-  5.10, 
-  25.94
+  14.95, 
+  13.10, 
+  26.54
 );
 
 new Model(
