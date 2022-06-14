@@ -9,6 +9,9 @@
     "name": "btcepek#9550",
     "email": ""
   },
+  "requiredPermissions": [
+    "ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE"
+  ],
   "main": "bin/game.js",
   "tags": [],
   "scene": {
