@@ -261,6 +261,21 @@ gltfShape3.isPointerBlocker = true
 gltfShape3.visible = true
 maze.addComponentOrReplace(gltfShape3)
 
+const climber = new Entity('climber')
+engine.addEntity(climber)
+climber.setParent(_scene)
+const climbtransform = new Transform({
+  position: new Vector3(32, 0, 32),
+  rotation: new Quaternion(0, 0, 0, 1),
+  scale: new Vector3(1, 1, 1)
+})
+maze.addComponentOrReplace(climbtransform)
+const gltfclimber = new GLTFShape("8dd05b91-a68f-4419-8de7-1a10f23e1633/climber.glb")
+gltfclimber.withCollisions = true
+gltfclimber.isPointerBlocker = true
+gltfclimber.visible = true
+maze.addComponentOrReplace(gltfclimber)
+
 
 /* All Teleports */
 new Model(
@@ -321,9 +336,9 @@ new Model(
   new GLTFShape("teleports/b3b4.glb"),
   new Transform({ position: new Vector3(32, 0, 32) }),
   _scene,
-  24.20, 
-  5.10, 
-  25.94
+  19.75, 
+  9.10, 
+  32.29
 );
 
 new Model(
@@ -393,18 +408,18 @@ new Model(
   new GLTFShape("teleports/g2af-b3a4.glb"),
   new Transform({ position: new Vector3(32, 0, 32) }),
   _scene,
-  24.20, 
+  16.01, 
   5.10, 
-  25.94
+  30.64
 );
 
 new Model(
   new GLTFShape("teleports/g2d4.glb"),
   new Transform({ position: new Vector3(32, 0, 32) }),
   _scene,
-  17.65, 
+  18.09, 
   5.10, 
-  32.05
+  31.90
 );
 
 new Model(
@@ -492,9 +507,9 @@ new Model(
   new GLTFShape("teleports/r2a4-g3a4.glb"),
   new Transform({ position: new Vector3(32, 0, 32) }),
   _scene,
-  24.20, 
-  5.10, 
-  25.94
+  15.30, 
+  9.10, 
+  31.75
 );
 
 new Model(
@@ -510,9 +525,9 @@ new Model(
   new GLTFShape("teleports/r3d4.glb"),
   new Transform({ position: new Vector3(32, 0, 32) }),
   _scene,
-  24.20, 
-  5.10, 
-  25.94
+  17.75, 
+  9.10, 
+  31.90
 );
 
 new Model(
