@@ -7,7 +7,8 @@ export class Model extends Entity {
     parent: Entity,
     locX: number,
     locY: number,
-    locZ: number
+    locZ: number,
+    lbl: string
   ) {
     super();
     engine.addEntity(this);
@@ -17,7 +18,7 @@ export class Model extends Entity {
     this.addComponent(
       new OnPointerDown(
         (e) => {
-          //this.playerTeleport(e);
+          log("Clicking on: " + lbl);
           void movePlayerTo({ x: locX, y: locY, z: locZ });
         },
         { hoverText: "Go through maze" }
