@@ -1,3 +1,4 @@
+import { Model } from "./model";
 
 const _scene = new Entity('_scene')
 _scene.addComponent(
@@ -254,8 +255,17 @@ const transform22 = new Transform({
   scale: new Vector3(1, 1, 1)
 })
 maze.addComponentOrReplace(transform22)
-const gltfShape3 = new GLTFShape("8dd05b91-a68f-4419-8de7-1a10f23e1633/maze2.glb")
+const gltfShape3 = new GLTFShape("8dd05b91-a68f-4419-8de7-1a10f23e1633/mazenowalls.glb")
 gltfShape3.withCollisions = true
 gltfShape3.isPointerBlocker = true
 gltfShape3.visible = true
 maze.addComponentOrReplace(gltfShape3)
+
+
+/* All Teleports */
+//nr 1
+new Model(
+  new GLTFShape("teleports/y2a1.glb"),
+  new Transform({ position: new Vector3(32, 0, 32) }),
+  _scene
+);
