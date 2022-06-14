@@ -3,7 +3,7 @@ const _scene = new Entity('_scene')
 _scene.addComponent(
   new CameraModeArea({
     area: {
-      box: new Vector3(32, 8, 128),
+      box: new Vector3(256, 256, 256),
     },
     cameraMode: CameraMode.FirstPerson,
   })
