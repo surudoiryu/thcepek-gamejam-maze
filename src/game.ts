@@ -263,9 +263,314 @@ maze.addComponentOrReplace(gltfShape3)
 
 
 /* All Teleports */
-//nr 1
+new Model(
+  new GLTFShape("teleports/b1d1.glb"),
+  new Transform({ position: new Vector3(32, 0, 32) }),
+  _scene,
+  24.20, 
+  5.10, 
+  25.94
+);
+
+new Model(
+  new GLTFShape("teleports/b2a1.glb"),
+  new Transform({ position: new Vector3(32, 0, 32) }),
+  _scene,
+  24.20, 
+  5.10, 
+  25.94
+);
+
+new Model(
+  new GLTFShape("teleports/b2df.glb"),
+  new Transform({ position: new Vector3(32, 0, 32) }),
+  _scene,
+  24.20, 
+  5.10, 
+  25.94
+);
+
+new Model(
+  new GLTFShape("teleports/b3a1.glb"),
+  new Transform({ position: new Vector3(32, 0, 32) }),
+  _scene,
+  24.20, 
+  5.10, 
+  25.94
+);
+
+new Model(
+  new GLTFShape("teleports/b3a3-g2a3.glb"),
+  new Transform({ position: new Vector3(32, 0, 32) }),
+  _scene,
+  24.20, 
+  5.10, 
+  25.94
+);
+
+new Model(
+  new GLTFShape("teleports/b3a3.glb"),
+  new Transform({ position: new Vector3(32, 0, 32) }),
+  _scene,
+  24.20, 
+  5.10, 
+  25.94
+);
+
+new Model(
+  new GLTFShape("teleports/b3b4.glb"),
+  new Transform({ position: new Vector3(32, 0, 32) }),
+  _scene,
+  24.20, 
+  5.10, 
+  25.94
+);
+
+new Model(
+  new GLTFShape("teleports/b3c4.glb"),
+  new Transform({ position: new Vector3(32, 0, 32) }),
+  _scene,
+  24.20, 
+  5.10, 
+  25.94
+);
+
+new Model(
+  new GLTFShape("teleports/b3d3.glb"),
+  new Transform({ position: new Vector3(32, 0, 32) }),
+  _scene,
+  24.20, 
+  5.10, 
+  25.94
+);
+
+new Model(
+  new GLTFShape("teleports/b3d4.glb"),
+  new Transform({ position: new Vector3(32, 0, 32) }),
+  _scene,
+  24.20, 
+  5.10, 
+  25.94
+);
+
+new Model(
+  new GLTFShape("teleports/b4a1.glb"),
+  new Transform({ position: new Vector3(32, 0, 32) }),
+  _scene,
+  24.20, 
+  5.10, 
+  25.94
+);
+
+new Model(
+  new GLTFShape("teleports/b4d1.glb"),
+  new Transform({ position: new Vector3(32, 0, 32) }),
+  _scene,
+  24.20, 
+  5.10, 
+  25.94
+);
+
+new Model(
+  new GLTFShape("teleports/g1a2.glb"),
+  new Transform({ position: new Vector3(32, 0, 32) }),
+  _scene,
+  24.20, 
+  5.10, 
+  25.94
+);
+
+new Model(
+  new GLTFShape("teleports/g1d4.glb"),
+  new Transform({ position: new Vector3(32, 0, 32) }),
+  _scene,
+  24.20, 
+  5.10, 
+  25.94
+);
+
+new Model(
+  new GLTFShape("teleports/g2af-b3a4.glb"),
+  new Transform({ position: new Vector3(32, 0, 32) }),
+  _scene,
+  24.20, 
+  5.10, 
+  25.94
+);
+
+new Model(
+  new GLTFShape("teleports/g2d4.glb"),
+  new Transform({ position: new Vector3(32, 0, 32) }),
+  _scene,
+  24.20, 
+  5.10, 
+  25.94
+);
+
+new Model(
+  new GLTFShape("teleports/g3a4-r2a4.glb"),
+  new Transform({ position: new Vector3(32, 0, 32) }),
+  _scene,
+  24.20, 
+  5.10, 
+  25.94
+);
+
+new Model(
+  new GLTFShape("teleports/g3d3.glb"),
+  new Transform({ position: new Vector3(32, 0, 32) }),
+  _scene,
+  24.20, 
+  5.10, 
+  25.94
+);
+
+new Model(
+  new GLTFShape("teleports/g4a1.glb"),
+  new Transform({ position: new Vector3(32, 0, 32) }),
+  _scene,
+  24.20, 
+  5.10, 
+  25.94
+);
+
+new Model(
+  new GLTFShape("teleports/g4a3-r3a3.glb"),
+  new Transform({ position: new Vector3(32, 0, 32) }),
+  _scene,
+  24.20, 
+  5.10, 
+  25.94
+);
+
+new Model(
+  new GLTFShape("teleports/g4a4.glb"),
+  new Transform({ position: new Vector3(32, 0, 32) }),
+  _scene,
+  24.20, 
+  5.10, 
+  25.94
+);
+
+new Model(
+  new GLTFShape("teleports/g4d1.glb"),
+  new Transform({ position: new Vector3(32, 0, 32) }),
+  _scene,
+  24.20, 
+  5.10, 
+  25.94
+);
+
+new Model(
+  new GLTFShape("teleports/r1a2.glb"),
+  new Transform({ position: new Vector3(32, 0, 32) }),
+  _scene,
+  24.20, 
+  5.10, 
+  25.94
+);
+
+new Model(
+  new GLTFShape("teleports/r1d1.glb"),
+  new Transform({ position: new Vector3(32, 0, 32) }),
+  _scene,
+  24.20, 
+  5.10, 
+  25.94
+);
+
+new Model(
+  new GLTFShape("teleports/r1d4.glb"),
+  new Transform({ position: new Vector3(32, 0, 32) }),
+  _scene,
+  24.20, 
+  5.10, 
+  25.94
+);
+
+new Model(
+  new GLTFShape("teleports/r2a4-g3a4.glb"),
+  new Transform({ position: new Vector3(32, 0, 32) }),
+  _scene,
+  24.20, 
+  5.10, 
+  25.94
+);
+
+new Model(
+  new GLTFShape("teleports/r3a3-g4a3.glb"),
+  new Transform({ position: new Vector3(32, 0, 32) }),
+  _scene,
+  24.20, 
+  5.10, 
+  25.94
+);
+
+new Model(
+  new GLTFShape("teleports/r3d4.glb"),
+  new Transform({ position: new Vector3(32, 0, 32) }),
+  _scene,
+  24.20, 
+  5.10, 
+  25.94
+);
+
+new Model(
+  new GLTFShape("teleports/r4a1.glb"),
+  new Transform({ position: new Vector3(32, 0, 32) }),
+  _scene,
+  24.20, 
+  5.10, 
+  25.94
+);
+
 new Model(
   new GLTFShape("teleports/y2a1.glb"),
+  new Transform({ position: new Vector3(32, 0, 32) }),
+  _scene,
+  24.20, 
+  5.10, 
+  25.94
+);
+
+new Model(
+  new GLTFShape("teleports/y3a1.glb"),
+  new Transform({ position: new Vector3(32, 0, 32) }),
+  _scene,
+  24.20, 
+  5.10, 
+  25.94
+);
+
+new Model(
+  new GLTFShape("teleports/y3b4.glb"),
+  new Transform({ position: new Vector3(32, 0, 32) }),
+  _scene,
+  24.20, 
+  5.10, 
+  25.94
+);
+
+new Model(
+  new GLTFShape("teleports/y3c4.glb"),
+  new Transform({ position: new Vector3(32, 0, 32) }),
+  _scene,
+  24.20, 
+  5.10, 
+  25.94
+);
+
+new Model(
+  new GLTFShape("teleports/y4a1.glb"),
+  new Transform({ position: new Vector3(32, 0, 32) }),
+  _scene,
+  24.20, 
+  5.10, 
+  25.94
+);
+
+new Model(
+  new GLTFShape("teleports/y4a4.glb"),
   new Transform({ position: new Vector3(32, 0, 32) }),
   _scene,
   24.20, 
