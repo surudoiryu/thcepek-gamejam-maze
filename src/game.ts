@@ -255,7 +255,7 @@ const transform22 = new Transform({
   scale: new Vector3(1, 1, 1)
 })
 maze.addComponentOrReplace(transform22)
-const gltfShape3 = new GLTFShape("8dd05b91-a68f-4419-8de7-1a10f23e1633/mazeFULL.glb")
+const gltfShape3 = new GLTFShape("8dd05b91-a68f-4419-8de7-1a10f23e1633/6_15-4DMAZE-NOTELE.glb")
 gltfShape3.withCollisions = true
 gltfShape3.isPointerBlocker = true
 gltfShape3.visible = true
