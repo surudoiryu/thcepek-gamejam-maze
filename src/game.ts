@@ -260,7 +260,7 @@ const transform22 = new Transform({
 });
 maze.addComponentOrReplace(transform22);
 const gltfShape3 = new GLTFShape(
-  "8dd05b91-a68f-4419-8de7-1a10f23e1633/6_15-4DMAZE-NOTELE.glb"
+  "8dd05b91-a68f-4419-8de7-1a10f23e1633/4DmazeHARD-6_17.glb"
 );
 gltfShape3.withCollisions = true;
 gltfShape3.isPointerBlocker = true;
