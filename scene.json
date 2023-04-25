@@ -35,10 +35,22 @@
     ],
     "base": "0,0"
   },
+  "communications": {
+    "type": "webrtc",
+    "signalling": "https://signalling-01.decentraland.org"
+  },
+  "worldConfiguration": {
+    "dclName": "dhcmaze.dcl.eth"
+  },
+  "policy": {
+    "contentRating": "E",
+    "fly": true,
+    "voiceEnabled": true,
+    "blacklist": [],
+    "teleportPosition": ""
+  },
   "source": {
     "version": 1,
-    "origin": "builder",
-    "projectId": "3b424f03-fb59-4ae7-a270-890f2d2110ce",
     "point": {
       "x": 0,
       "y": 0
