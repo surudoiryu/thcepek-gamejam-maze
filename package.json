@@ -15,14 +15,17 @@
   },
   "devDependencies": {
     "@dcl/eslint-config": "^1.0.1",
+    "@dcl/ecs-scene-utils": "^1.7.5",
+    "@dcl/ui-scene-utils": "^1.8.4",
     "decentraland-ecs": "latest"
   },
   "dependencies": {
-    "@dcl/ecs-scene-utils": "^1.7.5",
-    "@dcl/ui-scene-utils": "^1.8.4",
-    "decentraland-ecs": "latest",
-    "decentraland": "^3.10.4",
+    "decentraland": "^3.16.2",
     "decentraland-builder-scripts": "latest"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
   },
   "bundledDependencies": [
     "@dcl/ui-scene-utils",
